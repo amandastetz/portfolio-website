@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@115,440;115,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<head>
+    <link rel="icon" href="img/webLogo.png">
+    <title>Data Story &middot; Amanda Stetz</title>
+</head>
+<body>
+
+
+<!-- Navbar -->
+<div id="topBar"  class="row justify-content-center fixed-top">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+        <div class="w3-bar w3-large">
+            <a class="hype w3-bar-item w3-hide-medium w3-hide-large w3-right w3-padding-large w3-large"
+               href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="index.html" id="name" class="name w3-bar-item w3-padding-large">AMANDA STETZ</a>
+            <div class="topnav-right">
+                <a href="index.html" class="picked w3-bar-item w3-hide-small w3-padding-large">PROJECTS</a>
+                <a href="art.html" class="hype w3-bar-item w3-hide-small w3-padding-large">GRAPHICS</a>
+                <a href="about.html" class="hype  w3-bar-item w3-hide-small w3-padding-large">ABOUT</a>
+            </div>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="index.html" class="picked  w3-bar-item w3-padding-large">PROJECTS</a>
+            <a href="art.html" class="hype w3-bar-item w3-padding-large">GRAPHICS</a>
+            <a href="about.html" class="hype w3-bar-item w3-padding-large">ABOUT</a>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="bulk">
+
+    <div class="row justify-content-center spacertopxl">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+            <p class="titlebio" style="text-align: center">What Makes a Song Popular?</p>
+            <p class="subtitle" style="text-align: center">A data story for analyzing and visualizing trends in popular music.</p>
+            <img src="img/TopView.png" width="100%" height="auto">
+        </div>
+    </div>
+
+    <div class="row justify-content-center spacertop spacerxl">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                    <p class="projectBulk">
+                        OVERVIEW
+                    </p>
+                    <p class="projectOverview">
+                        A d3-powered data story consisting of five visualizations
+                        that reveal audio feature trends within Billboard Top 100
+                        songs. Created for a data visualization course at Harvard,
+                        CS 171, using a design sprint methodology and user testing.
+                    </p>
+                    <p class="projectBulk">
+                        CONTRIBUTIONS
+                    </p>
+                    <p class="projectSmallText">
+                        For three months I worked with a team of 2 other undergraduates to design and develop our data story.
+                        I was responsible for the overall UX and UI design of the story as well as for developing two original
+                        data visualizations. Additionally, I collaborated with my teammates on overall debugging and narrative creation.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <p class="projectBulk">TOOLBOX & MORE</p>
+                    <p class="projectSmallText">
+                        CSS/SCSS <br>
+                        HTML <br>
+                        D3.js <br>
+                        Oct - Dec 2020 <br>
+                    </p>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+
+
+
+    <div class="row justify-content-center spacertop spacerxl">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+            <p class="projectSection">
+                MOTIVATION
+            </p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <p class="projectOverview">
+                        Our project visualizes the wide range of
+                        music that has topped the charts from the past six decades. We would like to explore the top
+                        songs of each decade to understand what makes them so special. To do this, we researched how
+                        Spotify’s
+                        recommendation algorithm works and discovered several audio features that are attributed to
+                        songs that are recommended.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <p class="projectOverview">
+                        Initially, each team member focused on creating one or two visualizations. We collectively
+                        debugged and edited the visualizations after receiving user feedback. To create
+                        our data story we followed a design sprint methodology and conducted two think-aloud user
+                        studies. Our process as can be broken down into the following six steps:
+                    </p>
+                </div>
+                <img src="img/processFlow.png" width="100%" height="auto" class="spacertopmed spacerxl">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row justify-content-center spacertop">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p class="projectOverview stick">
+                    <span class="projectSection">
+                        MAP <br><br>
+                    </span>
+                        Our raw data was taken from Billboard's Top 100 Database and Spotify's API and combined to
+                        create a complete dataset containing song records and their corresponding audio features.
+                        In the data cleaning process some songs were uncategorized or miscellaneous
+                        in genre; we have chosen to exclude them.
+                        Our data story assumes a general audience but was made with music lovers in mind and aims
+                        to address to following questions:
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
+
+                    <div class="hgt onspacer">
+                        <p class="titlebio spacertopmed" style="text-align: center;">
+                            How has the sound of Pop changed over time?
+                        </p>
+                    </div>
+                    <div class="hgt onspacer">
+                        <p class="titlebio" style="text-align: center;">
+                            How has the popularity of genres changed over time?
+                        </p>
+                    </div>
+                    <div class="onspacer">
+                        <p class="titlebio" style="text-align: center;">
+                            Is there such a thing as “timelessness” in music?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center spacertop">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+            <p class="projectSection">
+                SKETCH & STORYBOARD
+            </p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <p class="projectOverview">
+                        In order to achieve the maximum breadth of ideas we rapidly brainstormed and drew
+                        visualizations to answer the aforementioned questions we wanted our data story to answer.
+                    </p>
+                    <p class="projectOverview">
+                        In the end we voted on several visualizations we believed had the most utility and
+                        could best progress the data story. We were left with four main visualizations: a bubble chart,
+                        a stacked area chart, a parallel coordinates chart and a radar chart. From here we selected our main
+                        message: to show the user what audio features make a song popular.
+                        Story board with visualizations, creating the narrative.
+                    </p>
+                    </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="scrolling-wrapper-flexbox scrolling-wrapper">
+                        <img src="img/sketches.png" width="100%" height="auto" class="card">
+                        <img src="img/storyBoard.png" width="100%" height="auto" class="card">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+        <div class="row justify-content-center spacertopxl">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <p class="projectOverview stick-lg">
+
+                            <span class="projectSection">
+                                PROTOTYPE
+                                <br><br>
+                            </span>
+
+                            I was responsible for developing the visual identity of the data story, and created a style guide
+                            for our visualizations and for the overall narrative- which consisted of typography, color schemes
+                            and landing screens. I also created the fixed progress bar navigation found on the left
+                            to ease jumping between screens.
+                            <br> <br>
+                            I was also responsible for creating the bubble chart and radar chart visualizations. Since
+                            the bubble chart was the data story's initial visualization I opted for using a variety of colored
+                            circled, each representing a song what has at some point reached the number one spot on the
+                            Billboard Top 100 Chart and size relative to the number of weeks it was number one.
+                            Users can hover over a circle to see more information about the song
+                            and can filter the circles displayed by date range using the area chart slider.
+                            <br><br>
+                            The radar chart takes the average over each audio feature shown in the parallel coordinates
+                            chart for each genre to create a "genre signature" to be displayed on the chart. Users can toggle
+                            between genres using the dropdown.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 onspacer">
+
+                            <img src="img/Artboard1.png" width="100%" height="auto">
+                            <img src="img/Artboard2.png" width="100%" height="auto">
+                            <img src="img/Artboard3.png" width="100%" height="auto">
+                            <img src="img/Artboard4.png" width="100%" height="auto">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div id="myModal" class="modal hide">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <img src="img/Artboard1.png">
+                </div>
+
+                <div class="mySlides">
+                    <img src="img/Artboard2.png">
+                </div>
+
+                <div class="mySlides">
+                    <img src="img/Artboard3.png">
+                </div>
+
+                <div class="mySlides">
+                    <img src="img/Artboard4.png">
+                </div>
+
+                <a class="prevlight" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="nextlight" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+        </div>
+
+
+
+
+    <div class="row justify-content-center spacertopxl">
+
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+            <p class="projectSection">
+                TEST
+            </p>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p class="titlebio">
+                        What does testing tell us?
+                    </p>
+
+                    <p class="projectOverview">
+                        The purpose of the user testing was to find any discontinuities or ambiguity
+                        within our data story. We recruited two users to test our prototype using a think-aloud
+                        study: instructing them to go through the data story and voice out their navigation and
+                        concerns from each. These pain points were taken into account in the revision stage to make
+                        the data story more robust and responsive to user needs.
+                    </p>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <li class="projectBulk onspacer">
+                        Bubble & Area Chart Confusion
+                    </li>
+                    <p class="spacertopxs projectOverview">
+                        Users expected the bubble chart circles to be grouped by genre, and did not understand
+                        the connection of the area chart to the overall data story - not realizing
+                        it could be brushed.
+                    </p>
+                    <li class="projectBulk">
+                        Unexplained Features & Directions
+                    </li>
+                    <p class="spacertopxs projectOverview">
+                        The audio featured in our later visualizations are not amply explained to the user
+                        and directions take up too much screen space, distracting from the visualizations.
+                    </p>
+                    <li class="projectBulk">
+                        Unresponsive Sidebar & Chart
+                    </li>
+                    <p class="spacertopxs projectOverview">
+                        Users could not feasibly compare two different genres against each other on the
+                        current radar chart and the sidebar did not change with each section.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center spacertop">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+            <p class="projectSection">
+                REVISE
+            </p>
+            <div class="row justify-content-center">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <p class="projectBulk onShrink">
+                <span class="titlebio">1 </span> Counter intuitive navigation.
+            </p>
+            <p class="spacertopxs projectOverview">
+                Bubble chart circles are now more closely grouped, plain text instructions and audio feature
+                definitions are now contained within pop-ups accessed by hovering over select buttons, and
+                audio feature breakdowns were added to the last three visualizations.
+            </p>
+
+
+            <p class="projectBulk spacertopmed">
+                <span class="titlebio">2 </span> Visually convoluted.
+            </p>
+            <p class="spacertopxs projectOverview">
+                The genre radar chart was revised to allow comparison and an additional radar
+                chart was added that displays song signatures for high and low levels of each audio feature.
+            </p>
+
+            <p class="projectBulk spacertopmed">
+                <span class="titlebio">3 </span> Misplaced emphasis.
+            </p>
+            <p class="spacertopxs projectOverview">
+                Placing the non-map task flows in bolded buttons visually misconstrues their significance
+                to the current task flow and draws the user away from the map.
+            </p>
+                    <p class="projectBulk spacertopmed">
+                        <span class="titlebio">4 </span> Misplaced emphasis.
+                    </p>
+                    <p class="spacertopxs projectOverview">
+                        Finally, audio was incorporated into the parallel coordinates and audio feature radar chart
+                        visualizations. Users can now hover over a song's line or signature and a clip of that song
+                        will play.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 onspacer">
+                    <img src="img/info1.png" width="100%" height="auto">
+                    <img src="img/info2.png" width="100%" height="auto">
+                    <img src="mov/popups.gif" width="100%" height="auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 spacertop">
+                <img src="mov/p1.gif" width="100%" height="auto">
+                <img src="img/p2.png" width="100%" height="auto">
+                <img src="mov/p3.gif" width="100%" height="auto">
+                <img src="mov/p4.gif" width="100%" height="auto">
+                <img src="img/p5.png" width="100%" height="auto">
+                <img src="mov/p6.gif" width="100%" height="auto">
+                <img src="mov/p7.gif" width="100%" height="auto">
+                <img src="mov/p8.gif" width="100%" height="auto">
+                <img src="img/p9.png" width="100%" height="auto">
+                <img src="img/p10.png" width="100%" height="auto">
+                <img src="img/p11.png" width="100%" height="auto">
+            </div>
+    </div>
+
+    <div class="row justify-content-center spacertopxl">
+
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <a href="nyt-protected.html"><p class="hype">&#8249; New York Times Internship</p></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <a href="internProject.html"><p class="hype" style="float: right;">Simulpass Internship &#8250;</p></a>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="spacertop spacer">
+
+        <div class="row spacerfooter spacertopmed justify-content-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+                <hr>
+                <div class="row">
+                    <div class="col-6">
+                        <p style="font-size: 12px; color: #989898;"> Designed and developed with &#x2764;&#xfe0f;&#x200d;&#x1f525; by Amanda Stetz &copy; 2021</p>
+                    </div>
+
+                    <div class="col-6">
+                        <p class="float-end">
+                            <a href="mailto:amandastetz@college.harvard.edu" style="color: #212121; text-decoration: none;"> EMAIL</a> &nbsp &nbsp
+                            <a href="https://www.linkedin.com/in/amandastetz" target="_window" style="color: #212121; text-decoration: none;">LINKEDIN</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+
+    $(document).ready(function () {
+        var scroll_pos = 0;
+        $(document).scroll(function () {
+            scroll_pos = $(this).scrollTop();
+            if (scroll_pos > 70) {
+                $('#name').css('background-image', 'linear-gradient(to right, #af680e, #d7a633, #deb915)');
+                $('#name').css('-webkit-text-fill-color', 'transparent');
+                $('#name').css('-webkit-background-clip', 'text');
+
+                $('#topBar').css('background-color', 'rgba(255,255,255,0.97)');
+                $('#navDemo').css('background-color', 'rgba(255,255,255,0.97)');
+
+            } else {
+                $('#name').css('background-image', 'linear-gradient(to right, #212121, #212121)');
+                $('#name').css('-webkit-text-fill-color', 'transparent');
+                $('#name').css('-webkit-background-clip', 'text');
+
+                $('#topBar').css('background-color', 'rgb(255,255,255)');
+                $('#navDemo').css('background-color', 'rgb(255,255,255)');
+            }
+        });
+    });
+
+</script>
+
+</body>
+</html>

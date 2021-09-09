@@ -1,0 +1,796 @@
+
+
+body {
+    /*background: #eaeaea;*/
+    background: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.bgintern {
+    background-image: url("img/internscreens.jpg");
+    height: 550px;
+}
+
+.bgarch {
+    background-image: url("img/archTitle.png");
+    height: 450px;
+}
+
+.bgweb{
+    background-image: url("img/webTitle.png");
+    height: 450px;
+}
+
+.bgfig {
+    background-image: url("img/ixora4.jpg");
+    height: 450px;
+}
+
+.stick {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30%;
+}
+
+.stick-lg {
+    position: sticky;
+    top: 10%;
+}
+
+.stick-ten {
+    float: right;
+}
+
+.bulk {
+    margin: 50px 50px 0 50px;
+}
+
+.bulksides {
+    margin: 0 50px 0 50px;
+}
+
+
+header {
+    background-color: white;
+}
+
+#topBar {
+    padding: 10px 20px;
+    z-index: 1;
+}
+
+#navDemo {
+    padding: 0 20px 40px 20px;
+}
+
+.name, .name:hover {
+    text-decoration: none;
+    color: #212121;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+}
+
+.pageBulk, .projectBulk, .projectSection {
+    font-family: "Archivo", sans-serif;
+}
+
+.projectBulk, .projectSection {
+    font-size: 1.6vw;
+    font-weight: 400;
+}
+
+.projectSection {
+    color: #a9a9a9;
+}
+
+.hype {
+    text-decoration: underline solid transparent;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+    transition: text-decoration 0.3s ease-in-out;
+    color: #212121;
+    font-weight: 440;
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+}
+
+.hypenyt {
+    text-decoration: underline solid transparent;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+    transition: text-decoration 0.3s ease-in-out;
+    color: #212121;
+    font-weight: 440;
+}
+
+.hypetop {
+    text-decoration: none;
+    font-weight: 440;
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    color: #212121;
+}
+
+.hype:hover, .hypenyt:hover {
+    color: #212121;
+    font-weight: 440;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+.hypetop:hover, .picked:hover {
+    color: #212121;
+}
+
+
+.picked {
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    color: #212121;
+    font-weight: 440;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+
+.title, .subtitle {
+    font-size: 2vw;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    /*font-family: "Roboto", sans-serif;*/
+    line-height: 100%;
+}
+
+.titlebio {
+    font-weight: bold;
+    font-size: 4vw;
+    font-family: "Archivo", sans-serif;
+    line-height: 100%;
+}
+
+.titleGraphic {
+    font-weight: bold;
+    font-size: 5vw;
+    font-family: "Roboto", sans-serif;
+    line-height: 100%;
+}
+
+.subtitlebio {
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: "Roboto", sans-serif;
+    line-height: 100%;
+    padding-left: 20px;
+}
+
+
+.subtitleArt {
+    font-size: 1.6vw;
+}
+
+.hgt {
+    height: 100vh;
+
+}
+
+.fifty {
+    padding: 50% 0;
+}
+
+.titleQuestions {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.subtitleQuestions {
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.titlebtm {
+    font-size: 3vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+
+.subtitlebtm {
+    font-size: 2vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.wrap {
+    color: #212121;
+}
+
+.biobulk {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 1.08vw;
+}
+
+.biosections {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+}
+
+span {
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+footer {
+    background-color: white;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 440;
+    font-size: 14px;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.spacer {
+    margin-bottom: 20px;
+}
+
+.spacerlg {
+    margin-bottom: 40px;
+}
+
+.spacerxl {
+    margin-bottom: 80px;
+}
+
+.spacerfooter {
+    margin-bottom: 160px;
+}
+
+.onGrow {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.spacertopxl {
+    margin-top: 140px;
+}
+
+.spacertop {
+    margin-top: 80px;
+}
+
+.onShrink {
+    margin-top: 0;
+}
+
+.spacertopmed {
+    margin-top: 40px;
+}
+
+.spacertopsm {
+    margin-top: 17px;
+}
+
+.spacertopxs {
+    margin-top: 10px;
+}
+
+.spacerleft {
+    margin-left: 120px;
+}
+
+.spacerright {
+    margin-right: 120px;
+}
+
+.box {
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(31, 31, 31, 0.1);
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box::after {
+    content: "";
+    border-radius: 12px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 20px 40px rgba(31, 31, 31, 0.5);
+    opacity: 0;
+    -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box:hover {
+    transform: translate(0px, -25px);
+    box-shadow: 0 20px 40px rgba(31, 31, 31, 0.5);
+    cursor: pointer;
+}
+
+.bottom {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.92);
+    border-radius: 12px;
+}
+
+
+.box:hover::after, .bottom:hover {
+    opacity: 1;
+}
+
+.top {
+    font-family: "Roboto", sans-serif;
+    font-size: 1vw;
+    color: #d7a633;
+}
+
+.rtop {
+    font-family: "Roboto", sans-serif;
+    float: right;
+    color: darkgray;
+}
+
+.description {
+    position: absolute;
+    bottom: 20px;
+    padding-right: 25px;
+}
+
+.midtitle {
+    font-family: "Archivo", sans-serif;
+    color: #d9d9d9;
+    font-weight: 440;
+    font-size: 3vw;
+    margin-bottom: 5px;
+}
+
+/*.mid {*/
+/*    font-family: "Roboto", sans-serif;*/
+/*    color: darkgray;*/
+/*    font-size: 1.2vw;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+.profile {
+    max-height: 500px;
+    height: auto;
+    width: auto;
+}
+
+.spacertopResponsive {
+    margin-top: 90px;
+}
+
+.spacerResponsive {
+    margin-top: 60px;
+}
+
+.backArrow {
+    font-size: 5vw;
+    position: fixed;
+    color: #212121;
+    transition: color 0.09s ease-in-out;
+    padding: 8px 10px;
+    background-color: transparent;
+}
+
+.backArrow:hover {
+    color: darkgray;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 150px;
+    margin: 10px;
+    transform: rotate(315deg);
+    transform-origin: 0% 0%;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.projectOverview {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.3vw;
+    padding-right: 30px;
+}
+
+.projectOverviewsm {
+    font-size: 1.4vw;
+}
+
+.projectSmallText {
+    font-family: Karla, sans-serif;
+    font-size: 1.3vw;
+    font-weight: normal;
+}
+
+.square {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.proto:hover {
+    cursor: zoom-in;
+}
+
+@media screen and (max-width: 1025px) {
+    .titlebio {
+        font-size: 5vw;
+    }
+
+    .subtitlebio {
+        font-size: 3vw;
+    }
+
+    .biobulk {
+        font-size: 1.8vw;
+    }
+    .projectOverviewsm {
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .onGrow {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .projectOverview {
+        padding-right: 0;
+    }
+
+    .title {
+        font-size: 6vw;
+    }
+
+    .subtitle {
+        font-size: 5vw;
+    }
+
+    .titlebio, .backArrow {
+        font-size: 8vw;
+    }
+
+    .subtitlebio {
+        font-size: 6vw;
+    }
+
+    .titlebtm {
+        font-size: 5vw;
+    }
+
+    .subtitlebtm {
+        font-size: 4vw;
+    }
+
+    .pen {
+        width: 100%;
+        height: 90%;
+    }
+
+    .bulk {
+        margin: 20px 20px 0 20px;
+    }
+
+    .bulksides {
+        margin: 0 20px;
+    }
+
+    .biobulk {
+        font-size: 3.5vw;
+    }
+
+    .spacerResponsive {
+        margin-top: 10px;
+    }
+
+    .titleQuestions {
+        font-size: 6vw;
+    }
+
+    .projectBulk, .projectOverview, .projectSmallText, .projectSection, .titleQuestions, .subtitleQuestions {
+        font-size: 4vw;
+    }
+
+    .top {
+        font-size: 2.6vw;
+    }
+
+    .midtitle {
+        font-size: 2vw;
+    }
+
+    .mid {
+        font-size: 3.3vw;
+    }
+
+    .subtitleArt {
+        font-size: 2vw;
+    }
+
+    .projectOverviewsm {
+        font-size: 3vw;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .subtitle {
+        font-size: 5vw;
+    }
+
+    .hgt {
+        height: auto;
+    }
+
+    .fifty {
+        padding: 0% 0;
+    }
+
+    .oncenter {
+        text-align: center;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .backArrow {
+        display: none;
+    }
+
+    .title {
+        font-size: 10vw;
+    }
+
+    .titlebio, .titleGraphic, .backArrow {
+        font-size: 10vw;
+    }
+
+    .bulk {
+        margin: 24px;
+    }
+
+    .profile {
+        padding: 20px;
+        height: auto;
+        width: 100%;
+    }
+
+    .titleQuestions {
+        font-size: 7vw;
+    }
+
+    .projectBulk, .subtitleQuestions {
+        font-size: 5vw;
+    }
+    .projectOverview, .projectSection {
+        font-size: 4.5vw;
+    }
+    .projectSmallText {
+        font-size: 4vw;
+    }
+
+    .top, .subtitleArt {
+        font-size: 3vw;
+    }
+
+    .midtitle {
+        font-size: 6vw;
+    }
+
+    .mid {
+        font-size: 4.3vw;
+    }
+
+    .spacertop, .spacerPhoneTop {
+        margin-top: 70px;
+    }
+
+    .onspacer, .onShrink {
+        margin-top: 40px;
+    }
+
+    .spacerPhoneBottom {
+        margin-bottom: 50px;
+    }
+
+    .projectOverviewsm {
+        font-size: 3.4vw;
+    }
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: transparent;
+    margin: auto;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 3;
+    transition: 0.6s ease;
+}
+
+.close:hover,
+.close:focus {
+    color: #212121;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.prevlight,
+.next,
+.nextlight {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    text-decoration: none;
+}
+
+.prevlight,
+.nextlight {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.prevlight:hover,
+.nextlight:hover {
+    color: #212121;
+}
+
+    /* Position the "next button" to the right */
+.next, .nextlight {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.card {
+    flex: 0 0 auto;
+}
+
+.scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+     display: none;
+ }
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#_progress {
+    --scroll: 0%;
+    background: linear-gradient(to right, #d7a633 var(--scroll),transparent 0);
+    position: fixed;
+    width: 100%;
+    height: 5px;
+    top:0px;
+    z-index: 100;
+}
